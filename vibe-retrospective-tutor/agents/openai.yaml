@@ -1,0 +1,7 @@
+interface:
+  display_name: "编程复盘导师"
+  short_description: "把智能体编程过程整理成中文学习复盘"
+  default_prompt: "使用 $vibe-retrospective-tutor 复盘刚完成的编程任务，讲清楚实现路线、技术取舍、踩坑和验证。"
+
+policy:
+  allow_implicit_invocation: false
