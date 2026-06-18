@@ -68,6 +68,13 @@ cp -R vibe-retrospective-tutor ~/.codex/skills/
 - 原题放在对应知识点后面，不集中堆到最后。
 - 选择题逐项解释，代码题逐空解释，计算题写公式、变量、代入和结果。
 - 图片、公式、答案来源看不到就标注限制，不编造。
+- 画图题可以按例题解法生成 SVG，并渲染成 PNG 插入对应讲解文件；这部分是可选扩展，详细规则放在 `exam-cram-cn/references/drawing.md`。
+
+模型和文件处理建议：
+
+- 如果资料里有图片题、画图题、截图公式题，建议使用带多模态和长上下文能力的模型。Claude Code 可优先考虑 Claude Opus 4.8，Codex 可优先考虑 GPT-5.5。
+- 国内模型接入 Claude Code 时，可以考虑 DeepSeek V4 Pro，便宜大碗；也可以考虑 MiniMax M3，适合长上下文和多模态场景。
+- 如果资料里有 PPT、DOCX、PDF 等文件，建议先安装对应官方 skill 来处理这些文件，再使用本考试 skill 做题目整理和教程生成。
 
 怎么触发：
 

@@ -64,6 +64,13 @@ Core behavior:
 - Attach original questions to their relevant knowledge point.
 - Explain multiple-choice options one by one; explain each code blank and each calculation step.
 - Never invent missing stems, images, answers, or platform explanations.
+- Drawing-question SVG/PNG generation is optional and documented in `exam-cram-cn/references/drawing.md`.
+
+Model and file-handling notes:
+
+- For image-heavy questions, drawing questions, screenshots, or formula images, use a multimodal model with long-context support. In Claude Code, Claude Opus 4.8 is a good fit; in Codex, GPT-5.5 is a good fit.
+- For China-accessible model setups through Claude Code, DeepSeek V4 Pro is a cost-effective option, while MiniMax M3 is useful for long-context and multimodal workloads.
+- For PPT, DOCX, PDF, and similar source files, install the relevant official document/file-processing skills first, then use this exam skill for question coverage and tutorial generation.
 
 Trigger examples:
 
