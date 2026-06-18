@@ -22,7 +22,7 @@
 |---|---|---|
 | [exam-cram-cn（考试通关）](#exam-cram-cn考试通关) | 把课件、作业题、真题和老师重点整理成零基础也能看的期末通关教程 | 期末、midterm、quiz、题库冲刺、代码填空、计算题 |
 | [claude-grill（Claude 审方案）](#claude-grillclaude-审方案) | 让 Claude Code 只读审查 Codex 的方案，给出 APPROVED / REVISE / BLOCKED | 重要改动前的方案审批、多轮审查、实现前把关 |
-| [vibe-retrospective-tutor（编程复盘导师）](#vibe-retrospective-tutor编程复盘导师) | 把一次智能体辅助编程过程整理成能学习的中文复盘教程 | 想理解刚才怎么实现、为什么这么改、下次怎么练 |
+| [vibe-retrospective-tutor（编程复盘导师）](#vibe-retrospective-tutor编程复盘导师) | vibecoding 后不只“跑通”，还把过程复盘成真正学到的东西 | 想理解刚才怎么实现、为什么这么改、下次怎么练 |
 
 ---
 
@@ -112,7 +112,11 @@ VERDICT: BLOCKED
 
 ### vibe-retrospective-tutor（编程复盘导师）
 
-这个 skill 用来把一次已经完成的智能体辅助编程过程，整理成中文学习复盘。它不是普通总结，也不是 changelog，而是解释“为什么这么改、还可以怎么做、踩了什么坑、怎么验证、用户下次怎么练”。
+> > > > > 总是 vibecoding 后感觉自己其实没学到什么？
+
+这个 skill 会把一次已经完成的智能体辅助编程过程整理成中文复盘：为什么这么改、踩了什么坑、怎么验证、下次怎么自己判断。
+
+帮你把 vibecoding 的黑箱过程慢慢沉淀成自己的经验和能力
 
 触发条件比较严格：只有用户明确要求复盘或教程时才使用，不会在每次任务结束后自动冒出来。
 
