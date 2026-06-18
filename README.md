@@ -112,7 +112,7 @@ VERDICT: BLOCKED
 
 ### vibe-retrospective-tutor（编程复盘导师）
 
-> > > > > 总是 vibecoding 后感觉自己其实没学到什么？
+> 总是 vibecoding 后感觉自己其实没学到什么？
 
 这个 skill 会把一次已经完成的智能体辅助编程过程整理成中文复盘：为什么这么改、踩了什么坑、怎么验证、下次怎么自己判断。
 
